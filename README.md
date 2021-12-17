@@ -1,6 +1,12 @@
 # Subdomain-Takeover
-Hedef URL Subdomain Takeover Test Aracı
+Subdomain takeover test aracı. [v2]
 
-python3 takeover.py -u [hedefsite]
+python3 takeover.py -t list.txt
 
-Heroku , AWS , Shopify
+list.txt şöyle olsun : 
+
+https://a.site.com
+
+https://mobil.site.com
+
+vs vs yani başında protokol olsun yoksa çalışmaz
