@@ -18,8 +18,9 @@ lines = file.readlines()
 
 
 for site in lines:
+  st = "http://"+site
   try:
-   req = requests.get(site)
+   req = requests.get(st)
     #payloads
    spayload = '<div id="shop-not-found">'
    hpayload = '<iframe src="//www.herokucdn.com/error-pages/no-such-app.html"></iframe>'
@@ -31,6 +32,6 @@ for site in lines:
    elif apayload in req.text:
     print(Fore.GREEN + "[!] BASARILI : "+req.url+Fore.RED+" [AWS]")
    else:
-    print("[!] HATA "+site)
+    print("[!] HATA "+st)
   except:
-   print("[!] HATA "+site)
+   print("[!] HATA "+st)
