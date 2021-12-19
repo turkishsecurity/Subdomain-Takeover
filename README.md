@@ -1,12 +1,13 @@
 # Subdomain-Takeover
-Subdomain takeover test aracı. [v2]
+Subdomain takeover test aracı. [v3]
 
 python3 takeover.py -t list.txt
 
-list.txt şöyle olsun : 
+liste dosyanız şöyle olsun : 
 
-https://a.site.com
+site.com
+mobil.site.com
+sub.site.com
+a.site.com vs vs
 
-https://mobil.site.com
-
-vs vs yani başında protokol olsun yoksa çalışmaz
+basına protol koymayın http https vs
