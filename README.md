@@ -10,4 +10,4 @@ mobil.site.com
 sub.site.com
 a.site.com vs vs
 
-basına protol koymayın http https vs
+basına protokol koymayın http https vs
