@@ -1,3 +1,4 @@
 cd /usr/share/
 cd Subdomain-Takeover
+chmod +x takeover.py
 python3 takeover.py
