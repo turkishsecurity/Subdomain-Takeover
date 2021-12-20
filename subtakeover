@@ -1,0 +1,3 @@
+cd /usr/share/
+cd Subdomain-Takeover
+python3 takeover.py
